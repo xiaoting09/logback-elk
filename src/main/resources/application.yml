@@ -1,0 +1,10 @@
+server:
+  port: 8022
+
+spring:
+  application:
+    group: PEAPP
+    name: community-server
+
+kafka:
+    servers: 127.0.0.1:9092
