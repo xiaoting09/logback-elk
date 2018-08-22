@@ -3,8 +3,11 @@ server:
 
 spring:
   application:
-    group: PEAPP
-    name: community-server
+    group: demo
+    name: log-demo
+app:
+  log:
+    enable: true
 
 kafka:
     servers: 127.0.0.1:9092
